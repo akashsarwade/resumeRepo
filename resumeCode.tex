@@ -1,0 +1,124 @@
+%==================== ATS FRIENDLY RESUME ====================
+% Compile with: pdflatex Akash_Sarwade_Resume.tex
+
+\documentclass[11pt,a4paper]{article}
+
+%-------------------- Packages --------------------
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{lmodern}   % <-- ADD HERE
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%-------------------- Colors --------------------
+\definecolor{darkpurple}{HTML}{4B0082} % Dark Purple (ATS-safe)
+
+%-------------------- Formatting --------------------
+\setlength{\parindent}{0pt}
+\setlist[itemize]{noitemsep, topsep=2pt}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+%-------------------- Document --------------------
+\begin{document}
+
+%-------------------- Header --------------------
+\begin{center}
+\textbf{\LARGE Akash Sarwade}\\
+Software Engineer | Java \& Spring Boot Developer\\
+Baner, Pune | +91-9356790044 | 
+\href{mailto:akashsarwade18@gmail.com}{akashsarwade18@gmail.com} | 
+\href{https://www.linkedin.com/in/akash-sarwade-523b78139/}{LinkedIn}
+\end{center}
+%-------------------- Summary --------------------
+\section*{Professional Summary}
+Java Developer with 4+ years of experience in designing, developing, and supporting scalable enterprise applications using Java, Spring Boot, and Microservices. Proven expertise in REST API development, production issue troubleshooting, and end-to-end Root Cause Analysis (RCA). Strong experience in CI/CD automation, AWS cloud services, and monitoring using ELK Stack. Effective collaborator in Agile environments with a strong focus on reliability and performance.
+
+%-------------------- Skills --------------------
+\section*{Technical Skills}
+\textbf{Languages:} Java \\
+\textbf{Frameworks:} Spring Core, Spring MVC, Spring Boot, Hibernate/JPA, Microservices, REST APIs \\
+\textbf{Frontend:} JavaScript (Basic), React.js (Basic) \\
+\textbf{Databases:} Oracle, MySQL, SQL Server \\
+\textbf{Cloud:} AWS (S3, SNS) \\
+\textbf{Servers:} Apache Tomcat, JBoss \\
+\textbf{DevOps \& Tools:} Git, Maven, Jenkins, Bitbucket, Rancher, Concourse, SonarQube, Postman, Jira, Confluence \\
+\textbf{Messaging \& Monitoring:} IBM MQ, MQ Visual Edit, Apache Kafka, ELK Stack, Kibana
+
+%-------------------- Experience --------------------
+\section*{Professional Experience}
+
+\textbf{\textcolor{darkpurple}{Accenture Solutions Pvt. Ltd.}} \hfill Pune\\
+\textit{Application Development Analyst} \hfill
+
+\textbf{Comcast Corporation} \hfill May 2025 -- Present
+\vspace{6pt}
+\begin{itemize}
+  \item Investigated and resolved production defects in \textbf{WkflBillingOrder} microservice across multiple environments.
+  \item Performed detailed RCA by analyzing workflow failures, order fallout data, and domain-level updates.
+  \item Implemented permanent code fixes to improve workflow stability and reduce repeat incidents.
+  \item Automated build and deployment pipelines using Jenkins CI/CD.
+  \item Managed Git branching, pull requests, and release merges.
+  \item Collaborated with QA, operations, and architecture teams for fix validation.
+  \item Authored RCA and troubleshooting documentation for cross-team knowledge sharing.
+\end{itemize}
+\vspace{6pt}
+\textbf{QRG (Supply Chain Management)} \hfill Jul 2024 -- Apr 2025
+\vspace{6pt}
+\begin{itemize}
+  \item Designed and executed BDD test scenarios using Gherkin for Trailer Management Service.
+  \item Optimized CI/CD pipelines (Bitbucket → Jenkins → Rancher).
+  \item Implemented monitoring and alerting using Kibana dashboards and Watcher.
+  \item Built reusable libraries for dynamic base URL and warehouse configuration management.
+  \item Developed utility modules for date/time validation and formatting.
+  \item Participated in Agile sprint ceremonies and maintained Confluence documentation.
+\end{itemize}
+
+
+\textbf{\textcolor{darkpurple}{DXC Technology}} \hfill Feb 2022 -- Jun 2024\\
+\textit{Software Analyst}
+
+\vspace{6pt}
+\textbf{HPE Profile Allocation}
+
+\begin{itemize}
+  \item Developed middleware integration between EDIH and Salesforce using Java.
+  \item Consumed event notifications via AWS SNS and processed JSON files from AWS S3.
+  \item Implemented asynchronous processing and persisted data into SQL Server.
+  \item Integrated Java services with Salesforce for downstream business workflows.
+\end{itemize}
+
+\vspace{6pt}
+\textbf{ Lenovo -- MDM Domain}
+\begin{itemize}
+  \item Designed and developed REST APIs for business entities such as Account, Contact, and Territory.
+  \item Integrated APIs with Apache Kafka for event-driven processing.
+  \item Ensured production readiness through testing, deployment, and monitoring.
+  \item Implemented CI/CD pipelines for automated build and deployment.
+  \item Created detailed RCA and troubleshooting documentation.
+\end{itemize}
+
+%-------------------- Certifications --------------------
+\section*{Certifications}
+\begin{itemize}
+  \item AWS Certified Developer – Associate
+  \item Oracle Certified Foundations Associate – Java
+  \item Profound Training Institute, Pune (4-Month Professional Course)
+\end{itemize}
+
+%-------------------- Education --------------------
+\section*{Education}
+\textbf{Bachelor of Engineering (Computer Engineering)}\\
+Savitribai Phule Pune University \hfill 2017 -- 2020\\
+\textbf{Diploma in Computer Engineering}
+
+%-------------------- Languages --------------------
+\section*{Languages}
+English, Hindi, Marathi
+
+\end{document}
